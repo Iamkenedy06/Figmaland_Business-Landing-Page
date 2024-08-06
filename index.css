@@ -1,0 +1,630 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Graphik Trial', sans-serif;
+
+}
+header{text-align: center;
+     background-image: url(./images/Rectangle\ 9.png);
+     background-size: cover;
+     padding: 1em 3em;
+     width: 100%;
+     height: 700px;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    display: fixed;
+    padding-top: 2em;
+}
+nav ul{
+display: flex;
+list-style: none;
+justify-content: center;
+}
+nav li{
+margin: 0 1em;
+}
+#figma{
+    width: 100%;
+    margin-top: -20px;
+}
+i{
+    font-size: 2rem;
+    color: #ffffff;
+    margin-left: 1em;
+}
+.icon-list i{
+    line-height: 1.8em;
+    margin-top: -15px;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:hover{
+color: #1792d2;
+}
+.sub-header{
+    width: 100%;
+    margin: 5em auto;
+    margin-top: 7em;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 340px;
+}
+.sub-header>h2, .sub-header>p{
+width: 37%;
+margin: 0 auto;
+}
+input{
+    border-radius: 20px;
+    padding: .5em 1.25em;
+    height: 30px;
+    width: 25%;
+    margin: 0 auto;
+    display: inline-block;
+    border: none;
+    background-color: #1792d2;
+    color: #ffffff;
+}
+.sub-header h2{
+    font-size: 3rem;
+}
+.sub-header p{
+    font-size: 1.125rem;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-top: 5em;
+}
+.Card{
+    display: flex;
+    justify-content: space-between;
+    margin: 5em auto;
+    width: 100%;
+    max-width: 700px;
+}
+.cards{
+width: 26%;
+text-align: center;
+}
+.cards p{
+    color: #69757F;
+}
+.cards>img, .cards>h3, .cards>p{
+    margin-top: 1em;
+}
+#head-tag-1, #p-tag-1{
+    text-align: center;
+    margin: 0 auto;
+}
+#p-tag-1{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 1em;
+    color: #69757F;
+}
+.video{
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+.col-1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px auto;
+    width: 80%;
+    max-width: 100%;
+}
+.sub-col{
+    display: flex;
+    margin-top: 6em;
+}
+.sub-sub-col{
+    width: 50%;
+}
+.sub-sub-col>h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #252B42;
+}
+.sub-sub-col>p{
+    font-size: 1.75rem;
+    color: #374754;
+    margin-top: 1em;
+}
+.Macbook{
+    width: 50%;
+    margin: 0 auto;
+}
+.second-button{
+    margin-top: 2em;
+}
+.sub-col-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10em;
+}
+.sc{
+    width: 60%;   
+}
+.sub-sub-col-1{
+    width: 30%; 
+
+}
+.sub-sub-col-1>h3{
+    margin-top: 4em;
+}
+.sub-sub-col-1>p{
+    font-size: 2.375rem;
+    color: #252B42;
+    font-weight: 400;
+}
+.email{
+    background-color: #E8E8E8;
+    margin-right: 1em;
+    width: 50%;
+}
+.email:focus{
+    outline: none;
+}
+#second-p{
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.sub-sub-col-1>input{
+    margin-top: 2em;
+}
+.items{
+    width: 60%;
+}
+.sub-col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8em;
+}
+.text{
+    text-align: center;
+    width: 45%;
+}
+.text>h2{
+    font-size: 3rem;
+    font-weight: 400;
+    color: #252B42;
+    line-height: 1.8125em;
+}
+.text>h4{
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #252B42;
+    line-height: 1.8125em;
+    margin-bottom: 2em;
+}
+.third-button{
+    width: 15%;
+    border-radius: 35px;
+    margin-top: 3em;
+}
+.profile{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.sub-col-4{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-col-4>h2{
+font-size: 3rem;
+font-weight: 400;
+line-height: 55px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #252B42;
+
+}
+.sub-col-4>p{
+    width: 75%;
+font-size: 1.75rem;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+}
+.ibm{
+    max-width: 100%;
+    width: 10%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.sub-div-1{
+    margin-top: 0.8em;
+    font-size: 1.3rem;
+}
+.fourth-button{
+    margin-top: 4em;
+    font-size: 1.25rem;
+    font-weight: 700;
+    height: 2em;
+}
+.sub-col-5{
+background-color: #252B42;
+text-align: center;
+padding: 7em 8em;
+color: #FFFFFF;
+margin-top: 6em;
+
+}
+.sub-col-5 h2{
+    font-size: 3rem;
+}
+.sub-col-5 h2 p{
+    font-size: 1.75rem;
+}
+.price-cards{
+width: 30%;
+height: 600px;
+padding: 40px 30px;
+border-radius: 0.625em;
+background-color: #FFFFFF;
+color: #252B42;
+}
+.price-cards p{
+    line-height: 3em;
+}
+.price-cards h2{
+    font-size: 1.25rem;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6em;
+    width: 100%;
+}
+.figures{
+    font-size: 4.625rem;
+    font-weight: 700;
+}
+.dollars{
+    font-size: 1.25rem;
+}
+#standard{
+    background-color: #2091F9;
+    height: 650px;
+    color: #FFFFFF;
+    margin-top: -3em;
+}
+#standard h2{
+    margin-top: 2.2em;
+}
+#standard input{
+    background-color: #ffffff;
+    color: #1792d2;
+}
+#organize{
+    line-height: 25px;
+}
+.span{
+    margin-top: 2em;
+}
+.price-cards input{
+    width: 90%;
+    height: 2em;
+    font-size: 1.25rem;
+    border-radius: 35px;
+    margin-top: 2em;
+}
+.sub-col-6{
+    width: 80%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sub-col-p{
+width: 50%;
+margin: 0 auto;
+margin-top: 1em;
+font-size: 1.75rem;
+}
+.input-box{
+    height: 480px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    width: 40%;
+    padding: 2em;
+    box-shadow: 3px 3px 5px 2px#69757F;
+}
+.input-box p{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.input-box input{
+    display: block;
+    background-color: #F5F5F5;
+    margin-left: 0px;
+    width: 90%;
+    margin-bottom: 3em;
+    color: #000000;
+}
+#screen{
+    display: none;
+}
+.Message{
+    padding-bottom: 8em;
+    padding-top: 2em;
+}
+#send{
+    width: 30%;
+    background-color: #1792d2;
+    color: #FFFFFF;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.map-links{
+    display: flex;
+    justify-content: space-between;
+    margin: 0em auto;
+    width: 100%;
+    max-width: 800px;
+}
+.map-links i{
+    color: #1792d2;
+}
+.container-2{
+    display: flex;
+    width: 100%;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+.map-img{
+    width: 70%;
+    margin: 0 auto;
+}
+.icon-duplicate i{
+    margin-top: 2em;
+    color: #2091F9;
+}
+footer{
+    background-color: #252B42;
+    display: flex;
+    align-items: baseline;
+    padding-top: 3em;
+    padding-left: 15em;
+}
+footer ul{
+    margin-right: 5em;
+    list-style-type: none;
+}
+footer li{
+    line-height: 3em;
+    color: #ffffff;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#first-li{
+    font-size: 1.375rem;
+    font-weight: bold;
+}
+#list{
+    display: none;
+}
+#hamburger{
+    display: none;
+}
+@media (min-width: 320px) and (max-width:425px){
+    nav ul{
+        /* display: none; */
+    }
+    .nav-list-item,.inner-li,.icon-list{
+        display: none;
+    }
+    body{
+        overflow-x: none;
+    }
+    #p-tag-1{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        overflow-x: hidden; 
+    }
+    #hamburger{
+        display: inline;
+        font-size: 25px;
+    }
+    #figma{
+        display: block;
+        margin-left: -30px;
+    }
+    #list{
+        display: block;
+    }
+    header{
+        height: 75em;
+    }
+    .sub-header>h2, .sub-header>p{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    .first-button{
+        width: 50%;
+    }
+    .Card{
+        flex-direction: column;
+    }
+    #screen{
+        display: block;
+        width: 93.75%;
+        margin: 0 auto;
+    }
+    .col-1{
+    
+    }
+    .Card{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .cards{
+        display: block;
+        width: 100%;
+    }
+    .Macbook{
+        width: 100%;
+        height: 100px;
+    }
+    .sub-sub-col{
+        width: 80%;
+    }
+    .sub-sub-col>h3{
+        font-size: 1.5rem;
+    }
+    .sub-sub-col>p{
+        font-size: 1rem;
+    }
+    .sub-col{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-button{
+        width: 100%;
+        margin-bottom: 4em;
+        margin-top: 4em;
+    }
+    .sub-col-2{
+        flex-direction: column;
+        margin-left: 2em;
+
+    }
+    .sub-sub-col-1{
+        width: 100%;
+    }
+    .sub-sub-col-1>input{
+        width: 80%;
+    }
+     .items{
+        width: 100%;
+     }
+     .third-button{
+        width: 50%;
+    }
+    .ibm{
+        width: 50%;
+    }
+    .fourth-button{
+        width: 70%;
+    }
+    .sub-div-1{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .sub-col-5{
+        padding: 1em  ;
+    }
+    .card-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .price-cards{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    #standard{
+        margin-top: 2em;
+    }
+    .container-2{
+        flex-direction: column;
+    }
+    .input-box, .map, #send{
+        width: 100%;
+    }
+    .map-links{
+        flex-direction: column;
+    }
+    .map-links .icons{
+        width: 100%;
+        font-size: 15px;
+        margin: 1em 0;
+    }
+    footer{
+        flex-direction: column;
+        padding-left:0em;
+    }
+    footer ul{
+        margin-left: 7em;  
+    }
+
+}
+@media (min-width: 426px) and (max-width: 768px){
+    nav i{
+        margin-left: 0.2em;
+    }
+    .sub-header>h2, .sub-header>p{
+        width: 50%;
+    }
+    .sub-sub-col{
+    width: 100%;
+    }
+    .Macbook{
+        width: 50%;
+        margin-top: 6em;
+        height: 100%;
+    }
+    .second-button{
+        width: 70%;
+    }
+    .sub-sub-col>h3{
+        font-size: 2.5rem;
+    }
+    .sc{
+        height: 100%;
+        margin-top: 10em;
+    }
+    .email, .Subscribe{
+        width: 100%;
+    }
+    .fourth-button{
+        width: 50%;
+    }
+    .card-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .price-cards{
+        width: 100%;
+        margin-bottom: 7em;
+    }
+    .sub-col-5{
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+    #send{
+        width: 100%;
+    }
+    footer{
+    padding-left: 2em;
+    font-size: 0.8em;
+    }
+}
